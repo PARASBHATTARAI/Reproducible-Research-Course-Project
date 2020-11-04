@@ -1,5 +1,4 @@
 
-
 ##Assignment Instructions
 1.Code for reading in the dataset and/or processing the data
 2.Histogram of the total number of steps taken each day
@@ -15,6 +14,7 @@
 ##Step 1
 ##Code for reading in the dataset and/or processing the data
 ```{r, echo = TRUE}
+
 activity<-read.csv("activity.csv")
 ```
 
