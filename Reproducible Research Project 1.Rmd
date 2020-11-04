@@ -11,12 +11,18 @@
 9.All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 
 
+
+
+
 ##Step 1
 ##Code for reading in the dataset and/or processing the data
 ```{r, echo = TRUE}
 
 activity<-read.csv("activity.csv")
 ```
+
+
+
 
 Exploring the basics of this data
 ```{r}
@@ -31,6 +37,10 @@ library(lubridate)
 activity$date<-ymd(activity$date)
 length(unique(activity$date))
 ```
+
+
+
+
 
 
 ##Step 2
